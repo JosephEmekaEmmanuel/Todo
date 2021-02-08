@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Todo App</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <div id="root">
+        <div id="container">
+            <header>
+                <img src="./assets/img/logo.png" alt="my Daily Todo App">
+                <div id="right">
+                    <button onclick="callAdd()">Add List</button>
+                </div>
+            </header>
+            <section>
+                <div class="list">
+                    <ul class="ul">
+                        
+                    </ul>
+                </div>
+                
+                <div id="empty">
+                    <img src="./assets/img/robot.png"  alt="empty image">
+                    <span>Oooooops! you have an empty todo list. <br> try adding some task for today.</span>
+                </div>
+            </section>
+            <div id="addlist">
+                <div class="formdata">
+                    <input type="text" id="todoItem" placeholder="Enter the task here">
+                    <button id="btnadd" > Add task to list</button>
+                    <button id="btnremove" > Close Tab</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/App.js"></script>
+</html>
